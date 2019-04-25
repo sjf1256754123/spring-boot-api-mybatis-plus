@@ -1,7 +1,17 @@
 ![Licence](https://img.shields.io/badge/licence-none-green.svg)
 [![GitHub Release](https://img.shields.io/github/release/lihengming/spring-boot-api-project-seed.svg)](https://github.com/lihengming/spring-boot-api-project-seed/releases)
+# First of all
+此项目是在
+https://github.com/tangzhimang/spring-boot-api-project-seed-master-self
+以及
+https://github.com/lihengming/spring-boot-api-project-seed
+两位的基础上再次开发的
+
+主要区别是此项目使用的是mybatis-plus
+
+
 ## 简介
-Spring Boot API Project Seed 是一个基于Spring Boot & MyBatis的种子项目，用于快速构建中小型API、RESTful API项目，该种子项目已经有过多个真实项目的实践，稳定、简单、快速，使我们摆脱那些重复劳动，专注于业务代码的编写，减少加班。下面是一个简单的使用演示，看如何基于本项目在短短几十秒钟内实现一套简单的API，并运行提供服务。
+Spring Boot API Project Seed 是一个基于Spring Boot & MyBatis-plus的种子项目，用于快速构建中小型API、RESTful API项目，该种子项目已经有过多个真实项目的实践，稳定、简单、快速，使我们摆脱那些重复劳动，专注于业务代码的编写，减少加班。下面是一个简单的使用演示，看如何基于本项目在短短几十秒钟内实现一套简单的API，并运行提供服务。
 
 [![请选择超清](https://raw.githubusercontent.com/lihengming/java-codes/master/shared-resources/github-images/project-example-youku.png)](http://v.youku.com/v_show/id_XMjg1NjYwNDgxNg==.html?spm=a2h3j.8428770.3416059.1)
 ## 特征&提供
@@ -16,7 +26,7 @@ Spring Boot API Project Seed 是一个基于Spring Boot & MyBatis的种子项目
 - 常用基础方法抽象封装
 - 使用Druid Spring Boot Starter 集成Druid数据库连接池与监控
 - 使用FastJsonHttpMessageConverter，提高JSON序列化速度
-- 集成MyBatis、通用Mapper插件、PageHelper分页插件，实现单表业务零SQL
+- 集成MyBatis-plus、分页插件，实现单表业务零SQL
 - 提供代码生成器根据表名生成对应的Model、Mapper、MapperXML、Service、ServiceImpl、Controller等基础代码，其中Controller模板默认提供POST和RESTful两套，根据需求在```CodeGenerator.genController(tableName)```方法中自己选择，默认使用POST模板。代码模板可根据实际项目的需求来扩展，由于每个公司业务都不太一样，所以只提供了一些比较基础、通用的模板，**主要是提供一个思路**来减少重复代码的编写，我在实际项目的使用中，其实根据公司业务的抽象编写了大量的模板。另外，使用模板也有助于保持团队代码风格的统一
 - 另有彩蛋，待你探索
  
@@ -47,4 +57,4 @@ Spring Boot API Project Seed 是一个基于Spring Boot & MyBatis的种子项目
 - 其他略
 
 ## License
-无，纯粹开源分享，感谢大家 [Star](https://github.com/lihengming/spring-boot-api-project-seed/stargazers) & [Fork](https://github.com/lihengming/spring-boot-api-project-seed/network/members) 的支持。
+无，纯粹开源分享。
