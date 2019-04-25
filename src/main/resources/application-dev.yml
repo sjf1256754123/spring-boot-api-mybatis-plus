@@ -1,0 +1,27 @@
+server:
+  port: 9999
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/learning_test?useUnicode=true&characterEncoding=UTF-8&serverTimezone=GMT&useSSL=false&allowPublicKeyRetrieval=true
+    username: root
+    password: 123456
+
+mybatis-plus:
+  mapperLocations: classpath:mapper/*Mapper.xml
+  global-config:
+    banner: true
+    db-config:
+      id-type: auto
+      tableUnderline: false
+      # 逻辑已删除值(默认为 1)
+      logic-delete-value: 1
+      # 逻辑未删除值(默认为 0)
+      logic-not-delete-value: 0
+  configuration:
+    map-underscore-to-camel-case: false
+
+logging:
+  file: log/learning-test.log
+  level:
+    com.company.project.dao : debug
