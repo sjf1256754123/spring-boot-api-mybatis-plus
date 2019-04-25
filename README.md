@@ -17,9 +17,6 @@ Spring Boot API Project Seed 是一个基于Spring Boot & MyBatis-plus的种子�
 ## 特征&提供
 - 新： 更新项目所有依赖以及插件为最新版本
 - 新:  集成Swagger2，同时自动生成简单的API测试说明，生成后访问地址为 http://localhost:8080/doc.html
-- 新： 添加通用Mapper的Example用法支持，详细用法请看官方说明（[Example 用法](https://github.com/abel533/Mapper/wiki/6.example)）。
-- 
-- 最佳实践的项目结构、配置文件、精简的POM（[查看项目结构图](https://github.com/lihengming/java-codes/blob/master/shared-resources/github-images/project-struct.png)）
 - 统一响应结果封装及生成工具
 - 统一异常处理
 - 简单的接口签名认证
@@ -48,11 +45,8 @@ Spring Boot API Project Seed 是一个基于Spring Boot & MyBatis-plus的种子�
  
 ## 技术选型&文档
 - Spring Boot（[查看Spring Boot学习&使用指南](http://www.jianshu.com/p/1a9fd8936bd8)）
-- MyBatis（[查看官方中文文档](http://www.mybatis.org/mybatis-3/zh/index.html)）
-- MyBatisb通用Mapper插件（[查看官方中文文档](https://mapperhelper.github.io/docs/)）
-- MyBatis PageHelper分页插件（[查看官方中文文档](https://pagehelper.github.io/)）
+- MyBatis-plus（[查看官方中文文档](https://mp.baomidou.com/)）
 - Druid Spring Boot Starter（[查看官方中文文档](https://github.com/alibaba/druid/tree/master/druid-spring-boot-starter/)）
-- Fastjson（[查看官方中文文档](https://github.com/Alibaba/fastjson/wiki/%E9%A6%96%E9%A1%B5)）
 - swagger2 ([查看官方文档](https://swagger.io/docs/))
 - 其他略
 
