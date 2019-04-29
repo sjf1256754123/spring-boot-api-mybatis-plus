@@ -10,9 +10,10 @@ https://github.com/lihengming/spring-boot-api-project-seed
 主要区别是此项目使用的是mybatis-plus
 
 2019-04-29
-更新：
+### 更新：
 1、简单整合spring-cloud使用eureka     项目目录：spring-cloud-learning-01
-修复：
+
+### 修复：
 1、修改模板文件的包名问题，之后只在core包里ProjectConstant文件中的PROJECT_PATH与BASE_PACKAGE即可
 
 
